@@ -1,0 +1,16 @@
+{
+  "name": "hive-cache",
+  "description": "Low level cache implementation for hive platform",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "redis": "~0.12.1",
+    "async": "~0.9.0",
+    "memjs": "^0.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "bin": {},
+  "main": "index.js",
+  "license": "LGPL 3"
+}
