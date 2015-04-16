@@ -18,11 +18,14 @@ var path = require('path');
  * @property {Object} [caches.default.backend=dummy] Defines the default backend type for the primary cache
  * @property {Object|String} [caches.default.location] Defines the configuration settings used to generate a connection for the deafult cache
  **/
-exports.caches = {
-	"default":{
-		backend:path.resolve(__dirname, '..', 'lib','backends','dummy' )
-	}
-	,"memory":{
-		backend:"memory"
+exports.hive = {
+	caches:{
+		default:{
+			backend:path.resolve(__dirname, '..', 'lib','backends','dummy' )
+		}
+		,memory:{
+			backend:"memory"
+		}
+		
 	}
 }
