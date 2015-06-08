@@ -1,0 +1,5 @@
+*.tgz
+test/
+scripts/
+*.save
+tap.xml

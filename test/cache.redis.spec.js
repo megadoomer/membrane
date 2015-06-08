@@ -1,9 +1,9 @@
 /*jshint node:true, laxcomma: true, smarttabs: true, mocha: true*/
 'use strict';
 var assert      = require('assert')
-  , kindOf      = require('mout/lang/kindOf')
+  , kindOf      = require('hive-stdlib/lang').kindOf
   , async       = require('async')
-  , Redis = require('alice-cache/lib/backends/redis');
+  , Redis = require('../lib/backends/redis');
 
 
 describe('cache', function(){

@@ -1,0 +1,4 @@
+node_modules
+*_packages/
+bamboo_artifacts/
+*.tgz

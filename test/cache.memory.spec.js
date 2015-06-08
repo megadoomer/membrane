@@ -1,8 +1,8 @@
 /*jshint node:true, laxcomma: true, smarttabs: true, mocha: true*/
 'use strict';
 var assert      = require('assert')
-  , kindOf      = require('mout/lang/kindOf')
-  , Memory = require('alice-cache/lib/backends/memory');
+  , kindOf      = require('hive-stdlib/lang').kindOf
+  , Memory = require('../lib/backends/memory');
 
 
 describe('cache', function(){
