@@ -1,5 +1,5 @@
-## Hive Cache
-The multi caching package for the Alice e-commerce platform
+## Membrane
+The multi caching package for the megadoomer application platform
 
 ## Configuration
 

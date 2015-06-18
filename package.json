@@ -1,6 +1,6 @@
 {
-  "name": "hive-cache",
-  "description": "Low level cache implementation for hive platform",
+  "name": "membrane",
+  "description": "Low level cache implementation for megadoomer platform",
   "version": "0.1.0",
   "scripts": {
     "test": "node ./scripts/test"
@@ -12,6 +12,11 @@
     "hive-stdlib": "~0.1.0",
     "memjs": "^0.8.5",
     "redis": "~0.12.1"
+  },
+  "bugs":"https://esatterwhite@bitbucket.org/megadoomer/membrane/issues",
+  "repository":{
+	"type":"git",
+	"url":"https://esatterwhite@bitbucket.org/megadoomer/membrane.git"
   },
   "bundledDependencies": [
     "hive-stdlib",
