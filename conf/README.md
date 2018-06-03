@@ -1,4 +1,4 @@
-# Configuration options for the Alice cache package
+# Configuration options for the membrane cache package
 
 Caches are defined by an object whos keys define a cache by name, and whose values comprise connection and driver options. The cache must have one and only one `default` cache. By default, the `default` cache is a dummy cache which implements required functions as noop methods to avoid errors.
 
@@ -12,23 +12,23 @@ Alternatively, the `backend` property can be the name of one of the default cach
 ###### Connection with a location string
 ```js
 "caches":{
-	"default":{
-		"backend":"/path/to/module"
-		,"location":'unix://path/to/connection.sock'
-	}
+  "default":{
+    "backend":"/path/to/module"
+    ,"location":'unix://path/to/connection.sock'
+  }
 }
 ```
 
 ###### connecting with a named cache backend and location object
 ```js
 "caches":{
-	"default":{
-		"backend":"redis"
-		,"location":{
-			"host":"localhost"
-			,"port":6370
-		}
-	}
+  "default":{
+    "backend":"redis"
+  , "location":{
+      "host":"localhost"
+    , "port":6370
+    }
+  }
 }
 ```
 
