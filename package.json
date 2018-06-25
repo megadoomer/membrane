@@ -7,7 +7,7 @@
     "posttest": "tap --coverage-report=text-summary"
   },
   "dependencies": {
-    "bitters": "^2.0.0",
+    "bitters": "^3.0.0",
     "debug": "^2.6.9",
     "gaz": "^1.1.1",
     "keef": "^4.0.1",
