@@ -1,5 +1,5 @@
 {
-  "name": "membrane",
+  "name": "@megadoomer/membrane",
   "description": "Low level cache implementation for megadoomer platform",
   "version": "1.0.0",
   "scripts": {
