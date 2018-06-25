@@ -1,7 +1,7 @@
 {
   "name": "membrane",
   "description": "Low level cache implementation for megadoomer platform",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "scripts": {
     "test": "tap test -Rtap --cov",
     "posttest": "tap --coverage-report=text-summary"
